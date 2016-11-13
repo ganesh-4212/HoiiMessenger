@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bacground"
+    tools:context="com.kempasolutions.app.hoiimessanger.ChatActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/chat_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomlayout">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#ecf0f1"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/emojiButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/emojicon_edit_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/ic_insert_emoticon_black_24dp" />
+
+            <github.ankushsachdeva.emojicon.EmojiconEditText
+                android:id="@+id/emojicon_edit_text"
+                emojicon:emojiconSize="28sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@id/emojiButton"
+                android:layout_toLeftOf="@+id/msg_send"
+                android:layout_toRightOf="@id/emojiButton"
+                android:layout_toStartOf="@+id/msg_send"
+                android:hint="@string/type_your_message"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLines="4"
+                android:paddingLeft="4dp"
+                android:scrollHorizontally="false"
+                android:singleLine="false"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/msg_send"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/emojicon_edit_text"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="8dp"
+                android:paddingEnd="17dp"
+                android:paddingLeft="13dp"
+                android:paddingRight="17dp"
+                android:paddingStart="13dp"
+                android:src="@drawable/ic_send_black_24dp"
+                android:onClick="sendMessage"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

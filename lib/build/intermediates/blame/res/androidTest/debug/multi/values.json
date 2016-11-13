@@ -1,0 +1,66 @@
+[
+    {
+        "outputFile": "C:\\Users\\Archana\\AndroidStudioProjects\\HoiiMessanger\\lib\\build\\intermediates\\res\\merged\\androidTest\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 260,
+                    "endColumn": 47,
+                    "endOffset": 303
+                },
+                "from": {
+                    "file": "C:\\Users\\Archana\\AndroidStudioProjects\\HoiiMessanger\\lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 260,
+                        "endColumn": 47,
+                        "endOffset": 303
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 308,
+                    "endColumn": 45,
+                    "endOffset": 349
+                },
+                "from": {
+                    "file": "C:\\Users\\Archana\\AndroidStudioProjects\\HoiiMessanger\\lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 308,
+                        "endColumn": 45,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 354,
+                    "endLine": 14,
+                    "endColumn": 12,
+                    "endOffset": 837
+                },
+                "from": {
+                    "file": "C:\\Users\\Archana\\AndroidStudioProjects\\HoiiMessanger\\lib\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 837
+                    }
+                }
+            }
+        ]
+    }
+]

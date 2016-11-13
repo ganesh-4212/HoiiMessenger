@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/contacts"
+        android:title="Contacts"
+        android:actionLayout="@layout/activity_recent_chats"
+        android:icon="@drawable/ic_person_add_black_24dp"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/share"
+        android:title="Share"
+        android:actionLayout="@layout/activity_recent_chats"
+        android:icon="@drawable/ic_share_black_24dp"
+        android:visible="true"
+        app:showAsAction="ifRoom"
+        />
+</menu>

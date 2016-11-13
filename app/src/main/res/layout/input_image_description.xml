@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:emojicon="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_root"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:theme="@style/Theme.AppCompat"
+    >
+
+    <ImageView
+        android:id="@+id/image_upload_desc_img"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center" />
+
+    <github.ankushsachdeva.emojicon.EmojiconEditText
+        android:id="@+id/image_upload_desc_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="@string/type_your_description"
+        android:inputType="textCapSentences|textMultiLine"
+        android:maxLines="2"
+        android:paddingLeft="4dp"
+        android:scrollHorizontally="false"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/gray"
+        android:textSize="18sp"
+        emojicon:emojiconSize="28sp">
+
+        <requestFocus />
+    </github.ankushsachdeva.emojicon.EmojiconEditText>
+    <Button
+        android:id="@+id/dialogButtonOK"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:text=" Ok " />
+
+</LinearLayout>

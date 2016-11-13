@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">hoii</string>
+    <string name="view_prfl">View profile</string>
+    <string name="clear_chat">Clear chats</string>
+    <string name="dlt_chat">Delete chat</string>
+    <string name="contacts_title">Contacts</string>
+    <string name="view_conv">View conversation</string>
+    <string name="view_addr">View address</string>
+    <string name="title_activity_contact_details">Contact Name</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="intent_contact_name">contact_name</string>
+    <string name="intent_contact_phone">contact_phone</string>
+    <string name="intent_contact_status">contact_status</string>
+    <string name="type_your_message">Enter msg</string>
+    <string name="type_your_description">Enter image description</string>
+    <string name="title_activity_register">Register</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>
